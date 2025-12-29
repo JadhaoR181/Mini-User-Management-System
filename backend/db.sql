@@ -44,7 +44,7 @@ CREATE TRIGGER update_users_updated_at
 INSERT INTO users (email, password_hash, full_name, role, status)
 VALUES (
   'admin@purplemerit.com',
-  '$2b$10$placeholder_hash_will_update_later',
+  'Admin@123',
   'Admin User',
   'admin',
   'active'

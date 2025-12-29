@@ -50,9 +50,9 @@ const validateFullName = (fullName) => {
   return null;
 };
 
-module.exports = [
+module.exports = {
     isValidEmail,
     isStrongPassowrd,
     getPasswordError,
     validateFullName
-];
+};
